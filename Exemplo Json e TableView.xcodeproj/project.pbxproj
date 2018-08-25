@@ -12,6 +12,8 @@
 		AC76928D2131E148005A5143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC76928B2131E148005A5143 /* Main.storyboard */; };
 		AC76928F2131E151005A5143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC76928E2131E151005A5143 /* Assets.xcassets */; };
 		AC7692922131E151005A5143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7692902131E151005A5143 /* LaunchScreen.storyboard */; };
+		AC76929A2131E1C5005A5143 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7692992131E1C5005A5143 /* ListaTableViewController.swift */; };
+		AC76929C2131E34B005A5143 /* Aplicativo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76929B2131E34B005A5143 /* Aplicativo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC76928E2131E151005A5143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7692912131E151005A5143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7692932131E151005A5143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7692992131E1C5005A5143 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		AC76929B2131E34B005A5143 /* Aplicativo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aplicativo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				AC7692872131E148005A5143 /* AppDelegate.swift */,
 				AC7692892131E148005A5143 /* ViewController.swift */,
+				AC7692992131E1C5005A5143 /* ListaTableViewController.swift */,
+				AC76929B2131E34B005A5143 /* Aplicativo.swift */,
 				AC76928B2131E148005A5143 /* Main.storyboard */,
 				AC76928E2131E151005A5143 /* Assets.xcassets */,
 				AC7692902131E151005A5143 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				AC76928A2131E148005A5143 /* ViewController.swift in Sources */,
 				AC7692882131E148005A5143 /* AppDelegate.swift in Sources */,
+				AC76929A2131E1C5005A5143 /* ListaTableViewController.swift in Sources */,
+				AC76929C2131E34B005A5143 /* Aplicativo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
